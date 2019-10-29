@@ -1,6 +1,6 @@
 This repo builds kafka using rules_foreign_cc's cmake_external rule, with cmake built as part of the build process.
 
-It works fine when run locally, but does not build on Google's Cloud Build, it fails with the following error:
+It works fine when built locally, but does not build on Google's Cloud Build, it fails with the following error:
 
 <code>
 CMake 3.12.1, Copyright 2000-2018 Kitware, Inc. and Contributors
